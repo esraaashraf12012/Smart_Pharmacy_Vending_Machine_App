@@ -5,9 +5,9 @@ web application for doctors, patients, and the admin to utilize our pharmacy ven
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Screen shots](#screen-shots)
 - [Usage](#usage)
 - [Implementation](#Implementation)
+- [Screen shots](#screen-shots)
 
 ## Introduction
 
@@ -30,6 +30,16 @@ Welcome to the Pharmacy Vending Machine Application repository! This web applica
     - Add new products.
     - Edit existing product details (e.g., location, price, expiration date).
   - Monitor inventory and vending machine status.
+
+
+ ## Usage
+ -Doctors can log in to the application to create prescriptions and obtain unique codes for patients.
+ -Patients can access the application by scanning the QR code from the vending machine to order medicines and products.
+ -Admins can manage the product database, add new products, and edit existing product information via the admin panel.
+
+ ## Implementation
+The backend of the Pharmacy Vending Machine Application was meticulously developed using PHP and MySQL to ensure robust functionality and secure data management. PHP, a widely-used server-side scripting language, provided the foundation for handling dynamic content generation and server-side logic. MySQL, a powerful relational database management system, was employed to efficiently store and manage data related to prescriptions, products, users, and inventory.
+
  ## Screen shots
 ![alt text](assets/screenshots/signup.jpg)
 ![alt text](assets/screenshots/doctor_home.jpg )
@@ -42,11 +52,3 @@ Welcome to the Pharmacy Vending Machine Application repository! This web applica
 ![alt text](assets/screenshots/admin_main.jpg)
 ![alt text](assets/screenshots/edit_product.jpg)
 ![alt text](assets/screenshots/add_product.jpg)
-
- ## Usage
- -Doctors can log in to the application to create prescriptions and obtain unique codes for patients.
- -Patients can access the application by scanning the QR code from the vending machine to order medicines and products.
- -Admins can manage the product database, add new products, and edit existing product information via the admin panel.
-
- ## Implementation
-The backend of the Pharmacy Vending Machine Application was meticulously developed using PHP and MySQL to ensure robust functionality and secure data management. PHP, a widely-used server-side scripting language, provided the foundation for handling dynamic content generation and server-side logic. MySQL, a powerful relational database management system, was employed to efficiently store and manage data related to prescriptions, products, users, and inventory.
